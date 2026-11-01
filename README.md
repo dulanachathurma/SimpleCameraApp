@@ -42,3 +42,25 @@ A simple Android camera app built with **Kotlin** and **Jetpack Compose** for th
 
 ## Tested on
 Pixel 6 emulator (API 34)
+
+## How to Run
+
+### Requirements
+- Android Studio (latest stable version)
+- An Android emulator (API 24 or higher) or a real Android phone
+- Internet connection for the first Gradle sync
+
+### Steps
+1. Clone the repository:
+   git clone :  https://github.com/dulanachathurma/SimpleCameraApp.git
+
+2. Open Android Studio and select **File > Open**, then choose the `SimpleCameraApp` folder.
+3. Wait for the Gradle sync to finish.
+4. Select a device (emulator or a real phone with USB debugging on) from the device dropdown.
+5. Click the **Run** button.
+6. Tap **Open Camera** and allow the camera permission.
+7. Take a photo. It will appear in the app.
+8. Tap **Share** to open the Android share sheet and send the photo through any app.
+
+## Tested on
+Pixel 6 emulator (API 34)
